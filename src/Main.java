@@ -16,10 +16,21 @@ public class Main {
         {
             System.out.println(book.isbn);
         }
+try {
+    MB.removeBook("EB1");
+    System.out.println("price = "+ MB.buyBook("EB1",3,"abdelrahmantamer0111@gmail.com","cairo,nasr city")); //throw exprction book not found
+}catch (Exception e)
+{
+    System.out.println(e.getMessage());
+}
 
-        MB.removeBook("EB1");
-        System.out.println("price = "+ MB.buyBook("EB1",3,"abdelrahmantamer0111@gmail.com","cairo,nasr city")); //throw exprction book not found
-        System.out.println("price = "+ MB.buyBook("SB1",0,"abdelrahmantamer0111@gmail.com","cairo,nasr city")); // this type not for sale
+try {
+    System.out.println("price = " + MB.buyBook("SB1", 0, "abdelrahmantamer0111@gmail.com", "cairo,nasr city")); // this type not for sale
+}catch (Exception e)
+{
+    System.out.println(e.getMessage());
+
+}
 
     }
 }
