@@ -27,5 +27,16 @@ This project demonstrates a simple object-oriented implementation of a bookstore
 
 ##  Example Output
 Below are sample screenshots showing the program's output .
+### 📷 Screenshot 1 – Console Output (Add book -Buy Book ) 
+![Buy Example](screenshots/add_buy.png)
+
+### 📷 Screenshot 2 – Console Output (Removing Outdated Books)
+![Remove Example](screenshots/remove_outdated.png)
+
+### 📷 Screenshot 3 – Console Output (Removing book then buy it)Error
+![Remove Example](screenshots/remove_buy.png)
+### 📷 Screenshot 4 – Console Output ( try to buy book type unsaled)Error
+![Remove Example](screenshots/buy_unsaled_type.png)
+
 
 
